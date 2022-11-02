@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faf4e9;
+}
+
+#content {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.headers {
+    font-family: Poppins, sans-serif;
+    font-size: 0.55rem;
+    display: flex;
+    justify-content: space-between;
+    color: #d4a246;
+
+}
+
+
+
+.main-text {
+    font-family: Sintony, sans-serif;
+    line-height: 1.2rem;
+    font-weight: 400;
+    font-size: .9rem;
+    text-align: justify;
+
+    background-color: #d08b0d;
+    padding: 2rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+.logo {
+    padding-bottom: 4rem;
+    align-self: center;
+}
